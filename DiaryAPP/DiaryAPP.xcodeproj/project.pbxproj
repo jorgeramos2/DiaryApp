@@ -14,6 +14,10 @@
 		5C606F6C2ADE7B3C00F08B06 /* DiaryAPPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C606F6B2ADE7B3C00F08B06 /* DiaryAPPTests.swift */; };
 		5C606F762ADE7B3C00F08B06 /* DiaryAPPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C606F752ADE7B3C00F08B06 /* DiaryAPPUITests.swift */; };
 		5C606F782ADE7B3C00F08B06 /* DiaryAPPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C606F772ADE7B3C00F08B06 /* DiaryAPPUITestsLaunchTests.swift */; };
+		5C606F862ADE7D1C00F08B06 /* DiaryEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C606F852ADE7D1C00F08B06 /* DiaryEntry.swift */; };
+		5C606F892ADE7F8700F08B06 /* DiaryEntriesExplorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C606F882ADE7F8700F08B06 /* DiaryEntriesExplorer.swift */; };
+		5C606F8B2ADE806500F08B06 /* DiaryEntryDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C606F8A2ADE806500F08B06 /* DiaryEntryDetailsView.swift */; };
+		5C606F8D2ADE863D00F08B06 /* DiaryEntryCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C606F8C2ADE863D00F08B06 /* DiaryEntryCreationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		5C606F712ADE7B3C00F08B06 /* DiaryAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiaryAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C606F752ADE7B3C00F08B06 /* DiaryAPPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAPPUITests.swift; sourceTree = "<group>"; };
 		5C606F772ADE7B3C00F08B06 /* DiaryAPPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryAPPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C606F852ADE7D1C00F08B06 /* DiaryEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntry.swift; sourceTree = "<group>"; };
+		5C606F882ADE7F8700F08B06 /* DiaryEntriesExplorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntriesExplorer.swift; sourceTree = "<group>"; };
+		5C606F8A2ADE806500F08B06 /* DiaryEntryDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntryDetailsView.swift; sourceTree = "<group>"; };
+		5C606F8C2ADE863D00F08B06 /* DiaryEntryCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaryEntryCreationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,8 @@
 		5C606F592ADE7B3400F08B06 /* DiaryAPP */ = {
 			isa = PBXGroup;
 			children = (
+				5C606F872ADE7E2400F08B06 /* Views */,
+				5C606F842ADE7CF900F08B06 /* Models */,
 				5C606F5A2ADE7B3400F08B06 /* DiaryAPPApp.swift */,
 				5C606F5C2ADE7B3400F08B06 /* ContentView.swift */,
 				5C606F5E2ADE7B3C00F08B06 /* Assets.xcassets */,
@@ -125,6 +135,24 @@
 				5C606F772ADE7B3C00F08B06 /* DiaryAPPUITestsLaunchTests.swift */,
 			);
 			path = DiaryAPPUITests;
+			sourceTree = "<group>";
+		};
+		5C606F842ADE7CF900F08B06 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5C606F852ADE7D1C00F08B06 /* DiaryEntry.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5C606F872ADE7E2400F08B06 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5C606F882ADE7F8700F08B06 /* DiaryEntriesExplorer.swift */,
+				5C606F8A2ADE806500F08B06 /* DiaryEntryDetailsView.swift */,
+				5C606F8C2ADE863D00F08B06 /* DiaryEntryCreationView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C606F8B2ADE806500F08B06 /* DiaryEntryDetailsView.swift in Sources */,
 				5C606F5D2ADE7B3400F08B06 /* ContentView.swift in Sources */,
+				5C606F8D2ADE863D00F08B06 /* DiaryEntryCreationView.swift in Sources */,
+				5C606F892ADE7F8700F08B06 /* DiaryEntriesExplorer.swift in Sources */,
+				5C606F862ADE7D1C00F08B06 /* DiaryEntry.swift in Sources */,
 				5C606F5B2ADE7B3400F08B06 /* DiaryAPPApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
